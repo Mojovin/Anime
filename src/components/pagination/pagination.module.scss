@@ -1,0 +1,12 @@
+.pagination{
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+
+    &__button{
+        width: 20px;
+        height: 20px;
+    }
+}

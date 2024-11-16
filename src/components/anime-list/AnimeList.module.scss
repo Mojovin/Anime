@@ -1,0 +1,14 @@
+.animeListPage{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 35px;
+        max-width: 890px;
+    }
+}

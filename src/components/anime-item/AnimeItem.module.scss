@@ -1,0 +1,35 @@
+.animeItem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 470px;
+    max-width: 400px;
+    padding: 8px;
+    border: 2px solid #2e2e2e;
+    border-radius: 8px;
+    background-color: #fffed5;
+
+    &__description{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+        &__title{
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        &__stats{
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            font-size: 16px;
+        }
+    }
+
+    &__image{
+        width: 254px;
+        height: 304px;
+        border-radius: 8px;
+    }
+}

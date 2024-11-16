@@ -1,0 +1,22 @@
+@import url('./reset');
+  
+body{
+    background: linear-gradient(135deg, #2a58fd, #a65dd0);
+    color: #000000;
+    font-family: "exoReg";
+}
+  
+@font-face {
+    font-family: "exoMedium";
+    src: url(./assets/fonts/Exo2-Medium.ttf);
+}
+
+@font-face {
+    font-family: "exoReg";
+    src: url(./assets/fonts/Exo2-Regular.ttf);
+}
+
+@font-face {
+    font-family: "exoBold";
+    src: url(./assets/fonts/Exo2-Bold.ttf);
+}

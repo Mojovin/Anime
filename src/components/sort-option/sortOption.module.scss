@@ -1,0 +1,18 @@
+.sort{
+    display: flex;
+    column-gap: 10px;
+    background-color: #fffed5;
+    border: 2px solid #2e2e2e;
+    border-radius: 30px;
+    padding-inline: 10px;
+    max-width: 517px;
+
+    &__label{
+        cursor: default;
+    }
+
+    &__select{
+        border: none;
+        outline: none;
+    }
+}
